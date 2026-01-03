@@ -10,7 +10,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://contact-management-frontend-phuom1clk.vercel.app",
+    "https://contact-management-frontend-two-tan.vercel.app/",
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   optionsSuccessStatus: 200,
