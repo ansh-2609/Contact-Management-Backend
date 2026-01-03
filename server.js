@@ -10,6 +10,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
+    "contact-management-backend-sigma.vercel.app",
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
 }));
